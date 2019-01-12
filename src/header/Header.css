@@ -1,0 +1,38 @@
+h1.site-title {
+    font-size: 1.5vw;
+    color: #d5ecd4;
+    padding: 0 0 0 1em;
+    margin-left: 2em;
+    margin-top: -.05em;
+}
+
+span.sugar {
+    font-family: 'dancing script', cursive;
+    font-size: 1.7em;
+    color: #f9f8f8;
+    margin-left: .1em;
+}
+
+header.site-header {
+    position: absolute;
+    display: flex;
+    width: 100%;
+    background-color: #9ec49e;
+    justify-content: space-between;
+    align-items: center;
+    left: 0;
+    top: 0;
+}
+
+div.search input[type="text"] {
+    outline: none;
+    border: none;
+    border-radius: .5em;
+    margin-right: 1em;
+    padding: .5em;
+    width: 70%;
+}
+
+img.search-image {
+    width: 4%;
+}
