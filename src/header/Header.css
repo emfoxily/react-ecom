@@ -14,12 +14,12 @@ span.slogan {
     font-family: 'dancing script';
     font-size: 2.5vw;
     color: #EDEDEC;
-    animation: slide-in 3s forwards;
+    animation: fade-slide-in 3s forwards;
     opacity: 0;
     transform: translateX(25%);
 }
 
-@keyframes slide-in {
+@keyframes fade-slide-in {
     100% {
         opacity: 1;
         transform: translateX(0%);

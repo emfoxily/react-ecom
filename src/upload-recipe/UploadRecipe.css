@@ -1,7 +1,7 @@
 div.upload-recipe {
     position: absolute;
     display: block;
-    background-color: #88523e;
+    background-color: #5C4D4A;
     width: 100%;
     height: 30vw;
     margin-top: 53.7vw;
@@ -9,6 +9,8 @@ div.upload-recipe {
     padding: 1em;
     text-align: center;
     color: #EDEDEC;
+    border-top: .3em solid #3f373b;
+    border-bottom: .3em solid #3f373b;
 }
 
 div.upload-recipe h2 {
@@ -37,5 +39,17 @@ img.sugar {
 
 img.sugar2 {
     position: absolute;
-    margin: 4vw 5vw;
+    margin: 5vw 5vw;
+    width: 30vw;
+}
+
+img.sugar, img.sugar2 {
+    animation: slide-in 2s 4s forwards;
+    transform: translateX(120%);
+}
+
+@keyframes slide-in {
+    100% {
+        transform: translateX(0%);
+    }
 }

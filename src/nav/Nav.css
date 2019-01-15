@@ -22,15 +22,16 @@ nav.navbar {
     align-items: center;
     left: 0;
     top: 0;
+    border-bottom: .3em solid #141B1F;
 }
 
 div.search input[type="text"] {
     background-color: #EDEDEC;
     outline: none;
     border: none;
-    border-radius: .5em;
+    border-radius: .3em;
     margin-right: 1em;
-    padding: .5em;
+    padding: 1em;
     width: 70%;
 }
 
