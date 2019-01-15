@@ -1,0 +1,50 @@
+h1.site-title {
+    font-size: 1.5vw;
+    color: #E7B690;
+    padding: 0 0 0 1em;
+    margin-left: 2em;
+    margin-top: -.05em;
+}
+
+span.sugar {
+    font-family: 'dancing script', cursive;
+    font-size: 1.7em;
+    color: #EDEDEC;
+    margin-left: .1em;
+}
+
+nav.navbar {
+    position: absolute;
+    display: flex;
+    width: 100%;
+    background-color: #192025;
+    justify-content: space-between;
+    align-items: center;
+    left: 0;
+    top: 0;
+}
+
+div.search input[type="text"] {
+    background-color: #EDEDEC;
+    outline: none;
+    border: none;
+    border-radius: .5em;
+    margin-right: 1em;
+    padding: .5em;
+    width: 70%;
+}
+
+img.search-image {
+    width: 4%;
+}
+
+ul.links {
+    display: flex;
+    list-style: none;
+    text-transform: uppercase;
+}
+
+ul.links li {
+    margin-right: 5vw;
+    color: #EDEDEC;
+}

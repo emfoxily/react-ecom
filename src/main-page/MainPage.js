@@ -3,6 +3,7 @@ import React, { Component } from 'react';
 import Media from 'react-media';
 
 // components
+import Nav from '../nav/Nav.js';
 import Header from '../header/Header.js';
 
 class MainPage extends Component {
@@ -14,7 +15,10 @@ class MainPage extends Component {
                         matches ? (
                             <h1>the screen is 480px wide or less</h1>
                         ) : (
-                            <Header />
+                            <div>
+                                <Nav />
+                                <Header />
+                            </div>
                         )
                     }
                 </Media>
