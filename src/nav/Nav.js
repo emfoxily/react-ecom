@@ -5,18 +5,19 @@ import search from '../assets/magnifier.png';
 class Nav extends Component {
     render() {
         return(
-            <div>
                 <nav className="navbar">
                     <h1 className="site-title">
                         YOUR CUP OF <span className="sugar">
                             sugar
                         </span>
                     </h1>
-                    <ul class="links">
+                    <ul className="links">
                         <li>home</li>
+                        <li>shop</li>
                         <li>recipes</li>
                         <li>community</li>
                         <li>careers</li>
+                        <li>contact us</li>
                     </ul>
                     <div className="search">
                         <input type="text" placeholder="Search..." />
@@ -25,7 +26,6 @@ class Nav extends Component {
                         </a>
                     </div>
                 </nav>
-            </div>
         )
     }
 }

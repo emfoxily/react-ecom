@@ -5,24 +5,28 @@ import Media from 'react-media';
 // components
 import Nav from '../nav/Nav.js';
 import Header from '../header/Header.js';
+import UploadRecipe from '../upload-recipe/UploadRecipe.js';
 
 class MainPage extends Component {
     render() {
         return(
-            <div>
                 <Media query="(max-width: 480px)">
                     {matches => 
                         matches ? (
-                            <h1>the screen is 480px wide or less</h1>
-                        ) : (
                             <div>
                                 <Nav />
                                 <Header />
                             </div>
+                        ) : (
+                            <div>
+                                {/* larger than 480px */}
+                                <Nav />
+                                <Header />
+                                <UploadRecipe />
+                            </div>
                         )
                     }
                 </Media>
-            </div>
         )
     }
 }
