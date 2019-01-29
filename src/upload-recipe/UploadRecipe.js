@@ -15,8 +15,8 @@ class UploadRecipe extends Component {
                         Join our community
                     </a> to share and grow your cookbook! Thousands of users upload every day, so it's never too late to get this bread.
                 </p>
-                <img class="sugar" src={sugar} alt="bag of sugar" />
-                <img class="sugar2" src={sugar2} alt="pile of sugar" />
+                <img className="sugar" src={sugar} alt="bag of sugar" />
+                <img className="sugar2" src={sugar2} alt="pile of sugar" />
             </div>
         )
     }

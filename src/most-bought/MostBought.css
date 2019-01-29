@@ -1,0 +1,28 @@
+div.pop-items {
+    background-color: #463937;
+    position: absolute;
+    margin-top: 85.5vw;
+    width: 96%;
+    padding: 1em 2em;
+    left: 0;
+    color: #EDEDEC;
+}
+
+div.pop-items h2 {
+    text-transform: uppercase;
+}
+
+div.pop-items hr {
+    border-color: #5e4c49;
+}
+
+div.most-bought {
+    margin: 0 auto;
+}
+
+img.product {
+    width: 25%;
+    margin-top: 1em;
+    margin-right: 1em;
+    border: 5px solid #5e4c49;
+}

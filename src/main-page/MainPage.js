@@ -6,6 +6,7 @@ import Media from 'react-media';
 import Nav from '../nav/Nav.js';
 import Header from '../header/Header.js';
 import UploadRecipe from '../upload-recipe/UploadRecipe.js';
+import MostBought from '../most-bought/MostBought.js';
 
 class MainPage extends Component {
     render() {
@@ -23,6 +24,7 @@ class MainPage extends Component {
                                 <Nav />
                                 <Header />
                                 <UploadRecipe />
+                                <MostBought />
                             </div>
                         )
                     }
