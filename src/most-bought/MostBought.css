@@ -17,12 +17,14 @@ div.pop-items hr {
 }
 
 div.most-bought {
-    margin: 0 auto;
+    display: flex;
+    justify-content: center;
 }
 
 img.product {
-    width: 25%;
+    width: 30%;
     margin-top: 1em;
     margin-right: 1em;
     border: 5px solid #5e4c49;
+    align-self: center;
 }

@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import '../most-bought/MostBought.css';
 import mixer from '../assets/mixer.png';
 import tools from '../assets/tools.png';
+import sifter from '../assets/sifter.jpg';
 
 class MostBought extends Component {
     render() {
@@ -15,6 +16,8 @@ class MostBought extends Component {
                     <img className="product" src={mixer} alt="mixer"/>
 
                     <img className="product" src={tools} alt="tools"/>
+
+                    <img className="product" src={sifter} alt="sifter" />
                 </div>
             </div>
         )
