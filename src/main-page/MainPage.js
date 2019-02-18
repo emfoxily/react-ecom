@@ -3,7 +3,6 @@ import React, { Component } from 'react';
 import Media from 'react-media';
 
 // components
-import Nav from '../nav/Nav.js';
 import Header from '../header/Header.js';
 import UploadRecipe from '../upload-recipe/UploadRecipe.js';
 import MostBought from '../most-bought/MostBought.js';
@@ -15,13 +14,11 @@ class MainPage extends Component {
                     {matches => 
                         matches ? (
                             <div>
-                                <Nav />
                                 <Header />
                             </div>
                         ) : (
                             <div>
                                 {/* larger than 480px */}
-                                <Nav />
                                 <Header />
                                 <UploadRecipe />
                                 <MostBought />

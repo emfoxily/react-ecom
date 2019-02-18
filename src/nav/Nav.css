@@ -25,6 +25,11 @@ nav.navbar {
     border-bottom: .3em solid #141B1F;
 }
 
+nav.navbar a{
+    text-decoration: none;
+    color: #EDEDEC
+}
+
 div.search input[type="text"] {
     background-color: #EDEDEC;
     outline: none;
