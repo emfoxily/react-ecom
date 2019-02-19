@@ -3,9 +3,9 @@ import React, { Component } from 'react';
 import Media from 'react-media';
 
 // components
-import Header from '../header/Header.js';
-import UploadRecipe from '../upload-recipe/UploadRecipe.js';
-import MostBought from '../most-bought/MostBought.js';
+import Header from '../main-page/header/Header.js';
+import UploadRecipe from '../main-page/upload-recipe/UploadRecipe.js';
+import MostBought from '../main-page/most-bought/MostBought.js';
 
 class MainPage extends Component {
     render() {

@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 import '../most-bought/MostBought.css';
-import mixer from '../assets/mixer.png';
-import tools from '../assets/tools.png';
-import sifter from '../assets/sifter.jpg';
+import mixer from '../../assets/mixer.png';
+import tools from '../../assets/tools.png';
+import sifter from '../../assets/sifter.jpg';
 
 class MostBought extends Component {
     render() {

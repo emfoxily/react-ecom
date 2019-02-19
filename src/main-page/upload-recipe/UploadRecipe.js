@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import sugar from '../assets/sugar.png';
-import sugar2 from  '../assets/sugar2.png';
+import sugar from '../../assets/sugar.png';
+import sugar2 from  '../../assets/sugar2.png';
 import '../upload-recipe/UploadRecipe.css';
 
 class UploadRecipe extends Component {

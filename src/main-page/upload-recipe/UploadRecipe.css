@@ -29,6 +29,7 @@ div.upload-recipe p {
 div.upload-recipe a {
     color: #EDEDEC;
     font-weight: 600;
+    text-decoration: underline;
 }
 
 img.sugar {
