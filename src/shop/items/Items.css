@@ -1,3 +1,4 @@
 h1.items {
-    position: absolute;
+    /* position: absolute; */
+    margin-top: 10vw;
 }

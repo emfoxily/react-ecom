@@ -9,7 +9,7 @@ class MostBought extends Component {
         return(
             <div className="pop-items">
                 <h2>
-                    Popular Items
+                   Most Frequently Viewed and Bought Items
                 </h2>
                 <hr />
                 <div className="most-bought">

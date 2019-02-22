@@ -1,0 +1,29 @@
+footer.footer {
+    background-color: #192025;
+    /* position: absolute; */
+    width: 105%;
+    margin-left: -.5vw;
+    /* margin-top: 103.5vw; */
+    border-top: .3em solid #141B1F;
+    color: #EDEDEC;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 1em;
+    margin: 0 auto;
+}
+
+div.links {
+    margin-right: 5vw;
+    padding: 5em;
+}
+
+div.links h5 {
+    font-size: 1vw;
+}
+
+div.links li {
+    padding: 0 5em;
+    font-size: .8em;
+    list-style: none;
+    margin-left: -5vw;
+}

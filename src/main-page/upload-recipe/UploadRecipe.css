@@ -1,12 +1,11 @@
 div.upload-recipe {
-    position: absolute;
+    /* position: absolute; */
     display: block;
     background-color: #5C4D4A;
-    width: 98%;
-    height: 30vw;
-    margin-top: 50vw;
-    left: 0;
-    padding: 1em;
+    width: 100%;
+    height: 31vw;
+    margin-top: -.2vw;
+    margin-left: -.5vw;
     text-align: center;
     color: #EDEDEC;
     border-top: .3em solid #3f373b;

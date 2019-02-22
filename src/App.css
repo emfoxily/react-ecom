@@ -5,6 +5,8 @@ body {
   background-image: url('../src/assets/wood.png');
   /* background-attachment: fixed; */
   font-family: 'Roboto', sans-serif;
+  width: 100%;
+  overflow-x: hidden;
 }
 
 h1 {
