@@ -6,6 +6,7 @@ import search from '../assets/magnifier.png';
 
 import MainPage from '../main-page/MainPage.js';
 import Shop from '../shop/Shop.js';
+import Recipes from '../recipes/Recipes.js';
 
 class Nav extends Component {
     render() {
@@ -25,7 +26,9 @@ class Nav extends Component {
                                 <Link to="/shop">
                                     <li>shop</li>
                                 </Link>
-                                <li>recipes</li>
+                                <li><Link to="/recipes">
+                                    recipes
+                                </Link></li>
                                 <li>community</li>
                                 <li>careers</li>
                                 <li>contact us</li>
@@ -38,7 +41,8 @@ class Nav extends Component {
                             </div>
                         </nav>
                         <Route exact path="/" component={MainPage} />
-                            <Route path="/shop" component={Shop} />
+                        <Route path="/shop" component={Shop} />
+                        <Route path="/recipes" component={Recipes} />
                     </div>
                 </Router>
         )

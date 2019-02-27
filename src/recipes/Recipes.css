@@ -1,0 +1,10 @@
+ul.recipe-list {
+    display: flex;
+    justify-content: center;
+    margin-top: 10vw;
+    width: 90%;
+}
+
+ul.recipe-list li {
+    padding: 1em;
+}

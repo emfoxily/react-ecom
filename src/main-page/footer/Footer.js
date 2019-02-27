@@ -25,7 +25,7 @@ class Footer extends Component {
                     </li>
                 </ul>
                 </div>
-                <div class="links">
+                <div className="links">
                 <h5>
                     Our Company
                 </h5>
@@ -44,7 +44,7 @@ class Footer extends Component {
                     </li>
                 </ul>
                 </div>
-                <div class="links">
+                <div className="links">
                 <h5>
                     Resources
                 </h5>
