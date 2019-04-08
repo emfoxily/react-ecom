@@ -6,7 +6,7 @@ class Items extends Component {
     render() {
         return(
             <h1 className="items">
-                Hi!
+                Coming Soon!
             </h1>
         )
     }
